@@ -1,0 +1,229 @@
+*{
+      padding: 0;
+      margin: 0;
+}
+.wrapper{
+      margin: 0 auto;
+      width: 1200px;
+}
+a{
+      text-decoration: none;
+}
+body{
+      background-color: bisque;
+}
+.readmore{
+      background-color: tomato;
+      width: 100px;
+      height: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      text-align: center;
+      color:white;
+      border-radius:30px; 
+      line-height: 50px;
+      border: 1 thick black;
+}
+.content{
+      background-color: tomato;
+      padding: 5px;
+      width: 180px;
+      height: 80px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 14px;
+      text-align: center;
+      color:white;
+      border-radius:30px; 
+      line-height: 80px;
+}
+.content:hover{
+      text-decoration: none;
+      background-color: red;
+      color: white;
+}
+.readmore:hover{
+      text-decoration: none;
+      background-color: red;
+}
+header nav{
+      width: 100%;
+      height: 60px;
+      background-color: aliceblue;
+}
+header nav ul{
+      float: left;
+}
+header nav ul li{
+      float: left;
+      list-style: none;
+}
+header nav ul li a{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      color: brown;
+      line-height: 60px;
+}
+header nav ul li a:hover{
+      color: grey;
+      text-decoration: none;
+}
+/*  Search-Box */
+header .search-box{
+      line-height: 60px;
+      margin-left: 410px;
+      float: left;
+}
+header .search-box input[type="text"]{
+    height: 32px;
+    padding: 5px 10px;
+    color: grey;
+    border: 1px solid #CCCCCC;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+header .result{
+    position: absolute;        
+    z-index: 999;
+}
+/* result items */
+header .result p{
+    background-color: ghostwhite;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    width: 400px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+}
+header .result p:hover{
+    background:bisque;
+}
+.result a{
+    text-decoration: none;
+    width: auto;
+    color:gray;
+}
+header .login{
+      float: right;
+}
+#insertBook{
+      padding-right:100px;
+}
+header .login form{
+      float: left;
+      padding-top: 15px;
+}
+header .login form input{
+      float: left;
+      width: 140px;
+      height: 30px;
+      padding: 0px 10px;
+      margin-right:10px; 
+      border: none;
+      background-color: lightgrey;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 14px;
+      color: black;
+      line-height: 30px;
+}
+header .login form button{
+      float: left;
+      width: 60px;
+      height: 30px;
+      margin-right:10px; 
+      border: none;
+      background-color: lightgrey;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 14px;
+      color: white;
+      cursor: pointer;
+}
+header .login form button:hover{
+      background-color: gray;
+}
+header .login a{
+      display: block;
+      width: 60px;
+      height: 60px;
+      border: none;
+      float: left;
+      background-color: aliceblue;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      color: brown;
+      line-height: 60px;
+      cursor: pointer;
+}
+header .login a:hover{
+      color: red;
+      text-decoration: none;
+}
+.container{
+      padding-top: 40px;
+}
+.container h2{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 40px;
+      color: brown;
+      line-height: 50px;
+      text-align: center;
+}
+.container h5{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      color: brown;
+      line-height: 50px;
+      text-align: center;
+}
+.color{
+      color: red;
+  }
+/*Sign up-Login*/
+
+.forms{
+      width: 400px;
+      margin: 0 auto;
+      padding-top: 30px; 
+}
+.forms input{
+      width: 90%;
+      height: 40px;
+      padding: 0px 5%; 
+      margin-bottom: 4px;
+      border: none;
+      background-color: #fff;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      color: black;
+      line-height: 40px;
+}
+.forms button{
+      display: block;
+      width: 30%;
+      height: 40px;
+      margin: 0 auto;
+      border: none;
+      background-color: lightsalmon;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      color: white;
+      cursor: pointer;
+}
+.forms a{
+      float: right;
+      color: brown;
+}
+.forms button:hover{
+      background-color: lightcoral;
+}
+.space{
+      margin-top: 20%;
+}
+footer p{
+      position: absolute;
+      left: 82%;
+}
